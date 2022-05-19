@@ -14,15 +14,15 @@ describe Solver do
     end
 
     it 'should return 1 if the given number is 1' do
-        number = 1
-        solve_factorial = Solver.new
-        expect(solve_factorial.factorial(number)).to eq 1
-      end
-  
-      it 'should return 120 if the given number is 5' do
-        number = 5
-        solve_factorial = Solver.new
-        expect(solve_factorial.factorial(number)).to eq 120
-      end
+      number = 1
+      solve_factorial = Solver.new
+      expect(solve_factorial.factorial(number)).to eq 1
+    end
+
+    it 'should return 120 if the given number is 5' do
+      number = 5
+      solve_factorial = Solver.new
+      expect(solve_factorial.factorial(number)).to eq 120
     end
   end
+end
